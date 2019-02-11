@@ -126,7 +126,10 @@
 				"foreground": "#6b7089"
 			}
 		}, {
-			"scope": "constant",
+			"scope": [
+				"constant",
+				"support.constant",
+			],
 			"settings": {
 				"foreground": "#a093c7"
 			}
@@ -322,9 +325,24 @@
 				"foreground": "#89b8c2"
 			}
 		}, {
-			"scope": "variable.scss",
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "#84a0c6"
+			}
+		}, {
+			"scope": "keyword.other.important.scss",
+			"settings": {
+				"foreground": "#e2a478"
+			}
+		}, {
+			"scope": "variable.interpolation.scss",
 			"settings": {
 				"foreground": "#b4be82"
+			}
+		}, {
+			"scope": "variable.scss",
+			"settings": {
+				"foreground": "#89b8c2"
 			}
 		}
 	]
