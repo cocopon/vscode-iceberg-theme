@@ -6,7 +6,6 @@
 		"badge.foreground": "#6b7089",
 		"button.background": "#84a0c6",
 		"button.foreground": "#c6c8d1",
-		"caret": "#c6c8d1",
 		"descriptionForeground": "#6b7089",
 		"diffEditor.insertedTextBackground": "#b4be8220",
 		"diffEditor.removedTextBackground": "#e9898920",
@@ -122,11 +121,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#161821",
-				"foreground": "#c6c8d1"
-			}
-		}, {
 			"scope": "comment",
 			"settings": {
 				"foreground": "#6b7089"
@@ -205,7 +199,7 @@
 		}, {
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#89b82"
+				"foreground": "#89b8c2"
 			}
 		}, {
 			"scope": "meta.brace.square",
