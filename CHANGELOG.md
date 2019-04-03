@@ -1,9 +1,13 @@
 # Change Log
 
 
+## 0.0.3
+- Added colors for activity bar
+
+
 ## 0.0.2
-- Update coloration
-- Resolve some errors
+- Updated coloration
+- Resolved some errors
 
 
 ## 0.0.1
