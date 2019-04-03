@@ -2,6 +2,11 @@
 	"name": "Iceberg",
 	"type": "dark",
 	"colors": {
+		"activityBar.background": "#161821",
+		"activityBar.foreground": "#6b7089",
+		"activityBar.inactiveForeground": "#242940",
+		"activityBarBadge.background": "#84a0c6",
+		"activityBarBadge.foreground": "#161821",
 		"badge.background": "#6b708920",
 		"badge.foreground": "#6b7089",
 		"button.background": "#84a0c6",
