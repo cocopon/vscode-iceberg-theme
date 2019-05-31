@@ -26,6 +26,7 @@
 		"editor.wordHighlightStrongBackground": "#84a0c680",
 		"editorError.foreground": "#e27878",
 		"editorGroup.border": "#242940",
+		"editorGroup.dropBackground": "#91acd120",
 		"editorGroupHeader.tabsBackground": "#0f1117",
 		"editorGutter.addedBackground": "#b4be8280",
 		"editorGutter.deletedBackground": "#e2787880",
