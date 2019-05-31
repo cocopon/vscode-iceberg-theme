@@ -1,6 +1,10 @@
 # Change Log
 
 
+## 0.0.4
+- Added error and warning colors for list
+
+
 ## 0.0.3
 - Added colors for activity bar
 
