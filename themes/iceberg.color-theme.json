@@ -30,6 +30,8 @@
 		"editorGutter.modifiedBackground": "#b4be82",
 		"editorLineNumber.foreground": "#444b71",
 		"editorLink.activeForeground": "#91acd1",
+		"editorOverviewRuler.addedForeground": "#b4be82",
+		"editorOverviewRuler.border": "#242940",
 		"editorOverviewRuler.deletedForeground": "#e27878",
 		"editorOverviewRuler.errorForeground": "#e27878",
 		"editorOverviewRuler.infoForeground": "#95c4ce",
