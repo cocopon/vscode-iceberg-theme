@@ -1,6 +1,10 @@
 # Change Log
 
 
+## 0.0.6
+- Added missing HTML tag colors
+
+
 ## 0.0.5
 - Updated gutter and overview ruler colors
 - Fine-tuned border colors
