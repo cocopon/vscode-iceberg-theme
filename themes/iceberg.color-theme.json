@@ -183,6 +183,11 @@
 				"foreground": "#e2a478"
 			}
 		}, {
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#84a0c6"
+			}
+		}, {
 			"scope": "keyword, keyword.operator.new",
 			"settings": {
 				"foreground": "#84a0c6"
@@ -267,6 +272,11 @@
 			"scope": "punctuation.definition.block",
 			"settings": {
 				"foreground": "#c6c8d1"
+			}
+		}, {
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#84a0c6"
 			}
 		}, {
 			"scope": "storage",
