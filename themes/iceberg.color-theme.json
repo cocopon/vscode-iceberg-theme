@@ -193,6 +193,11 @@
 				"foreground": "#84a0c6"
 			}
 		}, {
+			"scope": "keyword.control.at-rule, keyword.control.content",
+			"settings": {
+				"foreground": "#b4be82"
+			}
+		}, {
 			"scope": "keyword.function",
 			"settings": {
 				"foreground": "#84a0c6"
@@ -322,6 +327,11 @@
 			"scope": "meta.diff.range",
 			"settings": {
 				"foreground": "#89b8c2"
+			}
+		}, {
+			"scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.parent-selector-suffix.css",
+			"settings": {
+				"foreground": "#c6c8d1"
 			}
 		}, {
 			"scope": "markup.deleted.diff",
