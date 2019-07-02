@@ -379,7 +379,16 @@
 				"foreground": "#e2a478"
 			}
 		}, {
-			"scope": "variable.interpolation.scss",
+			"scope": [
+			  "meta.template.expression",
+			  "meta.embedded.expression",
+			  "punctuation.section.embedded"
+			],
+			"settings": {
+			  "foreground": "#c6c8d1"
+			}
+		}, {
+			"scope": "punctuation.definition.interpolation",
 			"settings": {
 				"foreground": "#b4be82"
 			}
