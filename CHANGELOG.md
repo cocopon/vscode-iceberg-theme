@@ -1,6 +1,13 @@
 # Change Log
 
 
+# 0.0.7
+- Updated title and status bar colors
+- Added styles for menu
+- Added styles for breadcrumb
+- Some minor improvements
+
+
 ## 0.0.6
 - Added missing HTML tag colors
 
