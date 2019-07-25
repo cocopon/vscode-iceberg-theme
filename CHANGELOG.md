@@ -1,6 +1,11 @@
 # Change Log
 
 
+# 0.1.0
+- Added colors for QuickInput, PeekView, etc.
+- Some minor improvements
+
+
 # 0.0.7
 - Updated title and status bar colors
 - Added styles for menu

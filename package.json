@@ -2,7 +2,7 @@
 	"name": "iceberg-theme",
 	"displayName": "Iceberg Theme",
 	"description": "Dark blue color theme",
-	"version": "0.0.7",
+	"version": "0.1.0",
 	"publisher": "cocopon",
 	"license": "MIT",
 	"homepage": "https://cocopon.github.io/iceberg.vim/",
