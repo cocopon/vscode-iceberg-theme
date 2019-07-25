@@ -120,6 +120,8 @@
 		"scrollbarSlider.background": "#24294080",
 		"scrollbarSlider.hoverBackground": "#242940a0",
 		"selection.background": "#4b548266",
+		"settings.headerForeground": "#c6c8d1",
+		"settings.modifiedItemIndicator": "#89b8c24c",
 		"sideBar.background": "#161821",
 		"sideBar.border": "#0f1117",
 		"sideBar.dropBackground": "#84a0c620",
