@@ -17,6 +17,7 @@
 		"button.background": "#c6c8d1",
 		"button.foreground": "#161821",
 		"button.hoverBackground": "#d2d4de",
+		"debugToolBar.background": "#1e2132",
 		"descriptionForeground": "#6b7089",
 		"diffEditor.insertedTextBackground": "#b4be8220",
 		"diffEditor.removedTextBackground": "#e9898920",
