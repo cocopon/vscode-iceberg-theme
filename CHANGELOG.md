@@ -1,6 +1,14 @@
 # Change Log
 
 
+# 1.0.0
+- Improved visibility of activity bar items
+- Added color for gutter background
+- Added missing color for Git
+- Added colors: debugToolBar, inputOption, etc.
+- Fixed status bar color
+
+
 # 0.1.0
 - Added colors for QuickInput, PeekView, etc.
 - Some minor improvements
