@@ -4,8 +4,8 @@
 	"colors": {
 		"activityBar.background": "#161821",
 		"activityBar.dropBackground": "#84a0c620",
-		"activityBar.foreground": "#6b7089",
-		"activityBar.inactiveForeground": "#242940",
+		"activityBar.foreground": "#c6c8d1",
+		"activityBar.inactiveForeground": "#6b7089",
 		"activityBarBadge.background": "#84a0c6",
 		"activityBarBadge.foreground": "#161821",
 		"badge.background": "#6b708920",
