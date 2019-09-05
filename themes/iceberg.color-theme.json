@@ -37,6 +37,7 @@
 		"editorGroup.dropBackground": "#84a0c620",
 		"editorGroupHeader.tabsBackground": "#0f1117",
 		"editorGutter.addedBackground": "#b4be8280",
+		"editorGutter.background": "#1e2132",
 		"editorGutter.deletedBackground": "#e2787880",
 		"editorGutter.modifiedBackground": "#b4be8280",
 		"editorIndentGuide.activeBackground": "#242940",
