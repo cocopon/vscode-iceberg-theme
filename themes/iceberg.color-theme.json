@@ -219,7 +219,11 @@
 				"foreground": "#84a0c6"
 			}
 		}, {
-			"scope": "keyword, keyword.operator.new",
+			"scope": [
+				"keyword",
+				"keyword.operator.expression",
+				"keyword.operator.new"
+			],
 			"settings": {
 				"foreground": "#84a0c6"
 			}
