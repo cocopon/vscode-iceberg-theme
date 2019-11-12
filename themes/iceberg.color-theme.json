@@ -42,6 +42,8 @@
 		"editorGutter.modifiedBackground": "#b4be8280",
 		"editorIndentGuide.activeBackground": "#242940",
 		"editorIndentGuide.background": "#24294040",
+		"editorLightBulb.foreground": "#e2a478",
+		"editorLightBulbAutoFix.foreground": "#89b8c2",
 		"editorLineNumber.activeForeground": "#cdd1e6",
 		"editorLineNumber.foreground": "#444b71",
 		"editorLink.activeForeground": "#84a0c6",
