@@ -1,6 +1,13 @@
 # Change Log
 
 
+# 1.0.1
+- Added colors for symbol icons
+- Added colors for light bulbs
+- Added colors for info / warning / error icons
+- Some minor improvements
+
+
 # 1.0.0
 - Improved visibility of activity bar items
 - Added color for gutter background
