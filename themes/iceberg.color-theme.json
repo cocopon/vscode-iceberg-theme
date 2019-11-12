@@ -222,11 +222,6 @@
 				"foreground": "#c6c8d1"
 			}
 		}, {
-			"scope": "entity.name.function.method",
-			"settings": {
-				"foreground": "#e2a478"
-			}
-		}, {
 			"scope": "entity.name.section",
 			"settings": {
 				"foreground": "#e2a478"
@@ -277,11 +272,6 @@
 				"foreground": "#6b7089"
 			}
 		}, {
-			"scope": "markup.heading",
-			"settings": {
-				"foreground": "#e2a478"
-			}
-		}, {
 			"scope": "markup.inline.raw.string",
 			"settings": {
 				"foreground": "#a093c7"
@@ -297,7 +287,11 @@
 				"foreground": "#c6c8d1"
 			}
 		}, {
-			"scope": "meta.definition.method entity.name.function",
+			"scope": [
+				"entity.name.function.method",
+				"markup.heading",
+				"meta.definition.method"
+			],
 			"settings": {
 				"foreground": "#e2a478"
 			}
