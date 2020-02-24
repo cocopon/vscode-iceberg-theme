@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 1.1.0
+- Added color for fold background
+
+
 # 1.0.1
 - Added colors for symbol icons
 - Added colors for light bulbs
