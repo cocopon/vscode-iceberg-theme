@@ -3,7 +3,6 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#161821",
-		"activityBar.dropBackground": "#84a0c620",
 		"activityBar.foreground": "#c6c8d1",
 		"activityBar.inactiveForeground": "#6b7089",
 		"activityBarBadge.background": "#84a0c6",
@@ -106,7 +105,6 @@
 		"notificationsWarningIcon.foreground": "#e2a478",
 		"panel.background": "#161821",
 		"panel.border": "#0f1117",
-		"panel.dropBackground": "#84a0c620",
 		"panelTitle.activeForeground": "#c6c8d1",
 		"panelTitle.inactiveForeground": "#6b7089",
 		"peekView.border": "#242940",
