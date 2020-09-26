@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 1.1.1
+- Improved contrast
+
+
 # 1.1.0
 - Added color for fold background
 
