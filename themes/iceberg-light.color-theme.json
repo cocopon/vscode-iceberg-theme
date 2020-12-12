@@ -61,7 +61,7 @@
 		"editorWhitespace.foreground": "#262a3f",
 		"editorWidget.background": "#dcdfe7",
 		"editorWidget.border": "#dcdfe7",
-		"editorWarning.foreground": "#e2a478",
+		"editorWarning.foreground": "#c57339",
 		"extensionButton.prominentBackground": "#33374c",
 		"extensionButton.prominentForeground": "#e8e9ec",
 		"extensionButton.prominentHoverBackground": "#262a3f",
@@ -88,7 +88,7 @@
 		"list.focusBackground": "#6668cb19",
 		"list.focusForeground": "#33374c",
 		"list.hoverBackground": "#dcdfe7",
-		"list.warningForeground": "#e9b189",
+		"list.warningForeground": "#c57339",
 		"menu.background": "#d0d4df",
 		"menu.foreground": "#33374c",
 		"menu.selectionBackground": "#e8e9ec",
@@ -104,9 +104,9 @@
 		"notifications.foreground": "#33374c",
 		"notificationsErrorIcon.foreground": "#cc517a",
 		"notificationsInfoIcon.foreground": "#3f83a6",
-		"notificationsWarningIcon.foreground": "#e2a478",
 		"panel.background": "#d0d4df",
 		"panel.border": "#dcdfe7",
+		"notificationsWarningIcon.foreground": "#c57339",
 		"panelTitle.activeForeground": "#33374c",
 		"panelTitle.inactiveForeground": "#8389a3",
 		"peekView.border": "#242940",
@@ -125,7 +125,7 @@
 		"pickerGroup.foreground": "#2d539e",
 		"problemsErrorIcon.foreground": "#cc517a",
 		"problemsInfoIcon.foreground": "#3f83a6",
-		"problemsWarningIcon.foreground": "#e2a478",
+		"problemsWarningIcon.foreground": "#c57339",
 		"progressBar.background": "#2d539e",
 		"quickInput.background": "#dcdfe7",
 		"quickInput.foreground": "#8389a3",
@@ -181,7 +181,7 @@
 		"terminal.ansiMagenta": "#7759b4",
 		"terminal.ansiRed": "#cc517a",
 		"terminal.ansiWhite": "#33374c",
-		"terminal.ansiYellow": "#e2a478",
+		"terminal.ansiYellow": "#c57339",
 		"terminal.foreground": "#33374c",
 		"terminal.selectionBackground": "#4b548266",
 		"textLink.activeForeground": "#2d539e",
@@ -225,7 +225,7 @@
 		}, {
 			"scope": "entity.name.section",
 			"settings": {
-				"foreground": "#e2a478"
+				"foreground": "#c57339"
 			}
 		}, {
 			"scope": "entity.name.tag",
@@ -294,7 +294,7 @@
 				"meta.definition.method"
 			],
 			"settings": {
-				"foreground": "#e2a478"
+				"foreground": "#c57339"
 			}
 		}, {
 			"scope": "meta.object-literal.key",
@@ -424,7 +424,7 @@
 		}, {
 			"scope": "keyword.other.important.scss",
 			"settings": {
-				"foreground": "#e2a478"
+				"foreground": "#c57339"
 			}
 		}, {
 			"scope": "variable.interpolation.scss",
