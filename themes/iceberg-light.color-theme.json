@@ -40,9 +40,9 @@
 		"editorGutter.background": "#dcdfe7",
 		"editorGutter.deletedBackground": "#cc517a80",
 		"editorGutter.modifiedBackground": "#668e3d80",
-		"editorIndentGuide.activeBackground": "#242940",
-		"editorIndentGuide.background": "#24294040",
-		"editorLightBulb.foreground": "#e2a478",
+		"editorIndentGuide.activeBackground": "#8389a3",
+		"editorIndentGuide.background": "#8389a340",
+		"editorLightBulb.foreground": "#c57339",
 		"editorLightBulbAutoFix.foreground": "#3f83a6",
 		"editorLineNumber.activeForeground": "#cdd1e6",
 		"editorLineNumber.foreground": "#9fa7bd",
@@ -190,7 +190,7 @@
 		"titleBar.activeForeground": "#33374c",
 		"titleBar.inactiveBackground": "#dcdfe7",
 		"titleBar.inactiveForeground": "#8389a3",
-		"tree.indentGuidesStroke": "#242940",
+		"tree.indentGuidesStroke": "#8389a3",
 		"widget.shadow": "#dcdfe7"
 	},
 	"tokenColors": [
