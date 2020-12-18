@@ -27,6 +27,12 @@
 				"label": "Iceberg",
 				"uiTheme": "vs-dark",
 				"path": "./themes/iceberg.color-theme.json"
+			},
+			{
+				"label": "Iceberg Light",
+				"uiTheme": "vs",
+				"path": "./themes/iceberg-light.color-theme.json"
+
 			}
 		]
 	},
