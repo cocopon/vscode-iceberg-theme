@@ -32,9 +32,14 @@
 				"label": "Iceberg Light",
 				"uiTheme": "vs",
 				"path": "./themes/iceberg-light.color-theme.json"
-
 			}
 		]
 	},
-	"private": true
+	"scripts": {
+		"build": "node src/main.js"
+	},
+	"private": true,
+	"devDependencies": {
+		"chroma-js": "^2.1.0"
+	}
 }
