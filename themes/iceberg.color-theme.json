@@ -1,6 +1,5 @@
 {
 	"name": "Iceberg",
-	"type": "dark",
 	"colors": {
 		"activityBar.background": "#161821",
 		"activityBar.foreground": "#c6c8d1",

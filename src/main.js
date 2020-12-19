@@ -1,10 +1,17 @@
 const Fs = require('fs');
 
-const ColorTheme = require('./color/color-theme');
-const Dark = require('./palette/dark');
+const DarkTheme = require('./color/theme/dark');
+const DarkPalette = require('./palette/dark');
+const LightTheme = require('./color/theme/light');
+const LightPalette = require('./palette/light');
 
 {
-	const theme = ColorTheme.create(Dark);
-	const json = ColorTheme.stringify(theme);
-	Fs.writeFileSync('themes/iceberg.color-theme.json', json);
+	Fs.writeFileSync(
+		'themes/iceberg.color-theme.json',
+		DarkTheme.stringify(DarkTheme.create(DarkPalette)),
+	);
+	Fs.writeFileSync(
+		'themes/iceberg-light.color-theme.json',
+		LightTheme.stringify(LightTheme.create(LightPalette)),
+	);
 }

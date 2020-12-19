@@ -1,11 +1,11 @@
-const Dark = require('../palette/dark');
-const {Color} = require('./color');
+const Dark = require('../../palette/dark');
+const {Color} = require('../color');
 
+// TODO: Refactor
 function create(palette) {
 	const p = palette;
 	return {
-		name: 'Iceberg',
-		type: 'dark',
+		name: 'Iceberg Light',
 		colors: {
 			'activityBar.background': p.normal.bg,
 			'activityBar.foreground': p.normal.fg,
@@ -29,7 +29,7 @@ function create(palette) {
 			'dropdown.foreground': p.normal.fg,
 			'editor.background': p.normal.bg,
 			'editor.foreground': p.normal.fg,
-			'editor.findMatchBackground': p.orange.withAlpha(0.628),
+			'editor.findMatchBackground': p.orange.withAlpha(0.63),
 			'editor.findMatchHighlightBackground': p.orange.withAlpha(0.5),
 			'editor.foldBackground': p.linenr.bg,
 			'editor.lineHighlightBackground': p.linenr.bg,
@@ -134,10 +134,10 @@ function create(palette) {
 			'quickInput.foreground': p.comment,
 			'scrollbar.shadow': p.normal.bg,
 			'scrollbarSlider.background': p.whitespace.withAlpha(0.5),
-			'scrollbarSlider.hoverBackground': p.whitespace.withAlpha(0.628),
+			'scrollbarSlider.hoverBackground': p.whitespace.withAlpha(0.63),
 			'selection.background': p.vscode.overlaySelection,
 			'settings.headerForeground': p.normal.fg,
-			'settings.modifiedItemIndicator': p.lblue.withAlpha(0.298),
+			'settings.modifiedItemIndicator': p.lblue.withAlpha(0.3),
 			'sideBar.background': p.normal.bg,
 			'sideBar.border': p.statuslinenc.bg,
 			'sideBar.dropBackground': p.blue.withAlpha(0.125),
