@@ -36,10 +36,14 @@
 		]
 	},
 	"scripts": {
-		"build": "node src/main.js"
+		"test": "npm run lint",
+		"build": "node src/main.js",
+		"format": "prettier -w 'src/**/*.js'",
+		"lint": "prettier -c 'src/**/*.js'"
 	},
 	"private": true,
 	"devDependencies": {
-		"chroma-js": "^2.1.0"
+		"chroma-js": "^2.1.0",
+		"prettier": "^2.2.1"
 	}
 }

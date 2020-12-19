@@ -22,7 +22,7 @@ function create(palette) {
 			'button.foreground': p.normal.bg,
 			'button.hoverBackground': p.ansi.brightWhite,
 			'debugToolBar.background': p.linenr.bg,
-			'descriptionForeground': p.comment,
+			descriptionForeground: p.comment,
 			'diffEditor.insertedTextBackground': p.green.withAlpha(0.125),
 			'diffEditor.removedTextBackground': p.red.withAlpha(0.125),
 			'dropdown.background': p.statuslinenc.bg,
@@ -70,8 +70,8 @@ function create(palette) {
 			'extensionButton.prominentBackground': p.normal.fg,
 			'extensionButton.prominentForeground': p.normal.bg,
 			'extensionButton.prominentHoverBackground': p.ansi.brightWhite,
-			'foreground': p.normal.fg,
-			'focusBorder': p.whitespace,
+			foreground: p.normal.fg,
+			focusBorder: p.whitespace,
 			'gitDecoration.addedResourceForeground': p.green,
 			'gitDecoration.conflictingResourceForeground': p.orange,
 			'gitDecoration.deletedResourceForeground': p.red,
@@ -202,40 +202,44 @@ function create(palette) {
 				settings: {
 					foreground: p.comment,
 				},
-			}, {
-				scope: [
-					'constant',
-					'support.constant',
-				],
+			},
+			{
+				scope: ['constant', 'support.constant'],
 				settings: {
 					foreground: p.purple,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.other.attribute-name',
 				settings: {
 					foreground: p.purple,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.name.class',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.name.function',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.name.section',
 				settings: {
 					foreground: p.orange,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.name.tag',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: [
 					'keyword',
 					'keyword.operator.expression',
@@ -244,53 +248,63 @@ function create(palette) {
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'keyword.control.at-rule, keyword.control.content',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'keyword.function',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'keyword.operator',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'keyword.other.unit',
 				settings: {
 					foreground: p.purple,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.bold',
 				settings: {
-					'fontStyle': 'bold',
+					fontStyle: 'bold',
 					foreground: p.ansi.brightWhite,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.fenced_code.block',
 				settings: {
 					foreground: p.comment,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.inline.raw.string',
 				settings: {
 					foreground: p.purple,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.link',
 				settings: {
 					foreground: p.lblue,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.brace.square',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: [
 					'entity.name.function.method',
 					'markup.heading',
@@ -299,142 +313,171 @@ function create(palette) {
 				settings: {
 					foreground: p.orange,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.object-literal.key',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.tag.attributes',
 				settings: {
 					foreground: p.purple,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.tag.sgml.doctype',
 				settings: {
 					foreground: p.comment,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.type.annotation',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'punctuation.definition.template-expression',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'punctuation.definition.block',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'punctuation.definition.tag',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'storage',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'storage.type.function',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'string',
 				settings: {
 					foreground: p.lblue,
 				},
-			}, {
+			},
+			{
 				scope: 'support',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'support.type.property-name',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'variable.language.this',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'text',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.diff.header',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'meta.diff.range',
 				settings: {
 					foreground: p.lblue,
 				},
-			}, {
-				scope: 'entity.other.attribute-name.class.css, entity.other.attribute-name.parent-selector-suffix.css',
+			},
+			{
+				scope:
+					'entity.other.attribute-name.class.css, entity.other.attribute-name.parent-selector-suffix.css',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.deleted.diff',
 				settings: {
 					foreground: p.red,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.inserted.diff',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'support.type.class.flowtype',
 				settings: {
 					foreground: p.green,
-				}
-			}, {
+				},
+			},
+			{
 				scope: 'punctuation.definition.block.tag.jsdoc',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'storage.type.class.jsdoc',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'variable.other.jsdoc',
 				settings: {
 					foreground: p.normal.fg,
 				},
-			}, {
+			},
+			{
 				scope: 'entity.name.import.go',
 				settings: {
 					foreground: p.lblue,
 				},
-			}, {
+			},
+			{
 				scope: 'markup.underline.link',
 				settings: {
 					foreground: p.blue,
 				},
-			}, {
+			},
+			{
 				scope: 'keyword.other.important.scss',
 				settings: {
 					foreground: p.orange,
 				},
-			}, {
+			},
+			{
 				scope: 'variable.interpolation.scss',
 				settings: {
 					foreground: p.green,
 				},
-			}, {
+			},
+			{
 				scope: 'variable.scss',
 				settings: {
 					foreground: p.lblue,
@@ -447,10 +490,7 @@ function create(palette) {
 function stringify(theme) {
 	return JSON.stringify(
 		theme,
-		(key, value) => (value instanceof Color) ?
-			value.hex() :
-			value
-		,
+		(key, value) => (value instanceof Color ? value.hex() : value),
 		'\t',
 	);
 }
