@@ -102,6 +102,9 @@ export interface Theme {
 		'gitDecoration.deletedResourceForeground': ThemeValue;
 		'gitDecoration.ignoredResourceForeground': ThemeValue;
 		'gitDecoration.modifiedResourceForeground': ThemeValue;
+		'gitDecoration.stageDeletedResourceForeground': ThemeValue;
+		'gitDecoration.stageModifiedResourceForeground': ThemeValue;
+		'gitDecoration.submoduleResourceForeground': ThemeValue;
 		'gitDecoration.untrackedResourceForeground': ThemeValue;
 		'input.background': ThemeValue;
 		'input.foreground': ThemeValue;
