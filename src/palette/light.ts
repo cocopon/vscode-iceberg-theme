@@ -1,4 +1,5 @@
-const Color = require('../color/color').Color;
+import {Color} from '../color/color';
+import {Palette} from './palette';
 
 const hues = {
 	base: 230,
@@ -68,7 +69,7 @@ const statuslinenc = {
 	fg: cursorlinenr.bg.darken(0.2),
 };
 
-module.exports = {
+export const Light: Palette = {
 	...colors,
 	tint: tint,
 
