@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"es2015"
+		],
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "../tmp",
+		"strictNullChecks": true,
+		"target": "es5"
+	},
+	"include": ["./**/*.ts"]
+}

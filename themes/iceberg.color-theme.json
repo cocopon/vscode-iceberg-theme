@@ -104,6 +104,7 @@
 		"merge.incomingHeaderBackground": "#89b8c240",
 		"merge.incomingContentBackground": "#89b8c220",
 		"notifications.background": "#1e2132",
+		"notifications.border": "#161821",
 		"notifications.foreground": "#c6c8d1",
 		"notificationCenterHeader.background": "#1e2132",
 		"notificationsErrorIcon.foreground": "#e27878",

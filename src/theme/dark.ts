@@ -1,11 +1,11 @@
-const {Color} = require('../color/color');
-const Dark = require('../palette/dark');
+import {Palette} from '../palette/palette';
+import {Theme} from './theme';
 
 // TODO: Refactor
-function create(palette) {
+export function create(palette: Palette): Theme {
 	const p = palette;
 	return {
-		name: 'Iceberg Light',
+		name: 'Iceberg',
 		colors: {
 			'activityBar.background': p.normal.bg,
 			'activityBar.foreground': p.normal.fg,
@@ -34,10 +34,10 @@ function create(palette) {
 			'editor.findMatchHighlightBackground': p.orange.withAlpha(0.25),
 			'editor.foldBackground': p.linenr.bg,
 			'editor.lineHighlightBackground': p.linenr.bg,
-			'editor.rangeHighlightBackground': p.orange.withAlpha(0.125),
+			'editor.rangeHighlightBackground': p.orange.withAlpha(0.1),
 			'editor.selectionBackground': p.visual,
-			'editor.wordHighlightBackground': p.blue.withAlpha(0.15),
-			'editor.wordHighlightStrongBackground': p.blue.withAlpha(0.3),
+			'editor.wordHighlightBackground': p.blue.withAlpha(0.25),
+			'editor.wordHighlightStrongBackground': p.blue.withAlpha(0.5),
 			'editorBracketMatch.background': p.matchparen.bg,
 			'editorBracketMatch.border': p.matchparen.bg,
 			'editorCursor.foreground': p.normal.fg,
@@ -110,7 +110,7 @@ function create(palette) {
 			'merge.incomingHeaderBackground': p.lblue.withAlpha(0.25),
 			'merge.incomingContentBackground': p.lblue.withAlpha(0.125),
 			'notifications.background': p.vscode.floating.bg,
-			'notifications.border': p.vscode.floating.border,
+			'notifications.border': p.vscode.floating.separator,
 			'notifications.foreground': p.normal.fg,
 			'notificationCenterHeader.background': p.vscode.floating.bg,
 			'notificationsErrorIcon.foreground': p.red,
@@ -142,10 +142,10 @@ function create(palette) {
 			'quickInput.foreground': p.comment,
 			'scrollbar.shadow': p.vscode.floating.shadow,
 			'scrollbarSlider.background': p.whitespace.withAlpha(0.5),
-			'scrollbarSlider.hoverBackground': p.whitespace.withAlpha(0.63),
+			'scrollbarSlider.hoverBackground': p.whitespace.withAlpha(0.628),
 			'selection.background': p.vscode.overlaySelection,
 			'settings.headerForeground': p.normal.fg,
-			'settings.modifiedItemIndicator': p.lblue.withAlpha(0.3),
+			'settings.modifiedItemIndicator': p.lblue.withAlpha(0.298),
 			'sideBar.background': p.normal.bg,
 			'sideBar.border': p.statuslinenc.bg,
 			'sideBar.dropBackground': p.blue.withAlpha(0.125),
@@ -494,14 +494,3 @@ function create(palette) {
 		],
 	};
 }
-
-function stringify(theme) {
-	return JSON.stringify(
-		theme,
-		(key, value) => (value instanceof Color ? value.hex() : value),
-		'\t',
-	);
-}
-
-exports.create = create;
-exports.stringify = stringify;
