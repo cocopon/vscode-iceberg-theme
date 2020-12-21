@@ -24,6 +24,7 @@ export interface Theme {
 		'breadcrumb.background': ThemeValue;
 		'breadcrumb.focusForeground': ThemeValue;
 		'breadcrumb.foreground': ThemeValue;
+		'breadcrumbPicker.background': ThemeValue;
 		'button.background': ThemeValue;
 		'button.foreground': ThemeValue;
 		'button.hoverBackground': ThemeValue;
@@ -70,6 +71,10 @@ export interface Theme {
 		'editorGutter.background': ThemeValue;
 		'editorGutter.deletedBackground': ThemeValue;
 		'editorGutter.modifiedBackground': ThemeValue;
+		'editorHoverWidget.background': ThemeValue;
+		'editorHoverWidget.border': ThemeValue;
+		'editorHoverWidget.foreground': ThemeValue;
+		'editorHoverWidget.statusBarBackground': ThemeValue;
 		'editorIndentGuide.activeBackground': ThemeValue;
 		'editorIndentGuide.background': ThemeValue;
 		'editorLightBulb.foreground': ThemeValue;
