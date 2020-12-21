@@ -1,6 +1,6 @@
-import {Palette} from '../palette/palette';
+import {Palette} from '../palette';
 import * as Dark from './dark';
-import {Theme} from './theme';
+import {Theme} from '../theme';
 
 export function create(palette: Palette): Theme {
 	const p = palette;
