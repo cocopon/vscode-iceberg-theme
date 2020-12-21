@@ -1,9 +1,9 @@
 const Fs = require('fs');
 
-const DarkTheme = require('./color/theme/dark');
 const DarkPalette = require('./palette/dark');
-const LightTheme = require('./color/theme/light');
 const LightPalette = require('./palette/light');
+const DarkTheme = require('./theme/dark');
+const LightTheme = require('./theme/light');
 
 {
 	Fs.writeFileSync(

@@ -1,5 +1,5 @@
-const Dark = require('../../palette/dark');
-const {Color} = require('../color');
+const {Color} = require('../color/color');
+const Dark = require('../palette/dark');
 
 // TODO: Refactor
 function create(palette) {
