@@ -1,4 +1,4 @@
-import {Color} from '../color/color';
+import {Color} from './color';
 
 type ThemeValue = string | Color;
 

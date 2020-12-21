@@ -1,5 +1,5 @@
-import {Color} from '../color/color';
-import {Palette} from './palette';
+import {Color} from '../color';
+import {Palette} from '../palette';
 
 const hues = {
 	base: 230,
