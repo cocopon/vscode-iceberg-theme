@@ -63,6 +63,10 @@ const cursorlinenr = {
 		lightness: -0.2,
 	}),
 };
+const statuslinenc = {
+	bg: cursorlinenr.bg,
+	fg: cursorlinenr.bg.darken(0.2),
+};
 
 module.exports = {
 	...colors,
@@ -74,19 +78,24 @@ module.exports = {
 		lightness: -0.1,
 	}),
 
+	matchparen: {
+		bg: normal.bg.darken(0.15),
+	},
 	normal: normal,
 	cursorlinenr: cursorlinenr,
 	linenr: linenr,
-	statuslinenc: {
-		bg: cursorlinenr.bg,
-		fg: cursorlinenr.bg.darken(0.2),
-	},
+	statuslinenc: statuslinenc,
 	whitespace: normal.bg.adjust({
 		saturation: 0.08,
 		lightness: -0.09 - 0.002,
 	}),
 
 	vscode: {
+		floating: {
+			bg: linenr.bg,
+			separator: comment.withAlpha(0.3),
+			shadow: Color.hsl(hues.base, 0.3, 0.3).withAlpha(0.3),
+		},
 		overlaySelection: Color.hsl(hues.base, 0.17, 0.73).withAlpha(0.4),
 	},
 
