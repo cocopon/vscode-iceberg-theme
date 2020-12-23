@@ -240,7 +240,8 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#a093c7"
+        "foreground": "#a093c7",
+        "fontStyle": "italic"        
 			}
 		},
 		{
@@ -252,7 +253,8 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#c6c8d1"
+        "foreground": "#c6c8d1",
+        "fontStyle": "italic"
 			}
 		},
 		{
@@ -339,7 +341,8 @@
 				"meta.definition.method"
 			],
 			"settings": {
-				"foreground": "#e2a478"
+        "foreground": "#e2a478",
+        "fontStyle": "italic"
 			}
 		},
 		{
@@ -351,7 +354,8 @@
 		{
 			"scope": "meta.tag.attributes",
 			"settings": {
-				"foreground": "#a093c7"
+        "foreground": "#a093c7",
+        "fontStyle": "italic"
 			}
 		},
 		{
@@ -381,7 +385,7 @@
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#84a0c6"
+				"foreground": "#c7ccd3"
 			}
 		},
 		{
