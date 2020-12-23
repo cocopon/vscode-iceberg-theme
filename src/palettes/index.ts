@@ -1,2 +1,2 @@
-export {Dark} from './dark';
-export {Light} from './light';
+export * as Dark from './dark';
+export * as Light from './light';

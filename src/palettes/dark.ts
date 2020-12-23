@@ -1,4 +1,5 @@
 import {Color} from '../color';
+import {VimPalette} from '../vim-paeltte';
 import {VscodePalette} from '../vscode-palette';
 
 const hues = {
@@ -22,7 +23,7 @@ const normal = {
 	bg: Color.hsl(hues.base, 0.2, 0.11 - 0.002),
 	fg: Color.hsl(hues.base, 0.1, 0.8 - 0.002),
 };
-const tint = {
+const tints = {
 	blue: {
 		bg: Color.mix(colors.blue, normal.bg, 0.3),
 		fg: Color.mix(colors.blue, normal.bg, 0.3),
@@ -69,9 +70,9 @@ const statuslinenc = {
 	fg: normal.bg.lighten(0.2),
 };
 
-export const Dark: VscodePalette = {
-	...colors,
-	tint: tint,
+export const Palette: VimPalette = {
+	colors: colors,
+	tints: tints,
 
 	comment: comment,
 	visual: normal.bg.adjust({
@@ -90,15 +91,6 @@ export const Dark: VscodePalette = {
 		saturation: 0.08,
 		lightness: 0.09 - 0.002,
 	}),
-
-	vscode: {
-		floating: {
-			bg: linenr.bg,
-			separator: normal.bg,
-			shadow: statuslinenc.bg,
-		},
-		overlaySelection: Color.hsl(hues.base, 0.27, 0.4).withAlpha(0.4),
-	},
 
 	ansi: {
 		black: linenr.bg,
@@ -141,3 +133,117 @@ export const Dark: VscodePalette = {
 		}),
 	},
 };
+
+export function toVscode(p: VimPalette): VscodePalette {
+	return {
+		colors: p.colors,
+		tints: p.tints,
+		ansi: p.ansi,
+
+		editor: {
+			bg: p.normal.bg,
+			bracketMatch: {
+				bg: p.matchparen.bg,
+			},
+			fg: p.normal.fg,
+			gutter: {
+				active: {
+					fg: p.cursorlinenr.fg,
+				},
+				bg: p.linenr.bg,
+				fg: p.linenr.fg,
+			},
+			lineHighlight: {
+				bg: p.linenr.bg,
+			},
+			selection: {
+				bg: p.visual,
+			},
+			whitespace: {
+				fg: p.whitespace,
+			},
+		},
+		floating: {
+			bg: p.linenr.bg,
+			list: {
+				selection: {
+					bg: p.cursorlinenr.bg,
+					fg: p.cursorlinenr.fg,
+				},
+			},
+			separator: p.normal.bg,
+			shadow: statuslinenc.bg,
+		},
+		fold: {
+			bg: p.linenr.bg,
+		},
+		input: {
+			bg: p.statuslinenc.bg,
+			fg: p.normal.fg,
+		},
+		list: {
+			activeSelection: {
+				bg: p.linenr.bg,
+				fg: p.normal.fg,
+			},
+			inactiveSelection: {
+				bg: p.linenr.bg,
+			},
+			focus: {
+				bg: p.cursorlinenr.bg,
+				fg: p.cursorlinenr.fg,
+			},
+			hover: {
+				bg: p.linenr.bg,
+			},
+		},
+		menubar: {
+			selection: {
+				bg: p.linenr.bg,
+				fg: p.normal.fg,
+			},
+		},
+		overlaySelection: Color.hsl(hues.base, 0.27, 0.4).withAlpha(0.4),
+		statusBar: {
+			bg: p.statuslinenc.bg,
+			fg: p.comment,
+			item: {
+				hover: {
+					bg: p.comment.withAlpha(0.125),
+				},
+			},
+		},
+		tab: {
+			active: {
+				bg: p.normal.bg,
+				fg: p.normal.fg,
+			},
+			hover: {
+				bg: p.linenr.bg,
+			},
+			inactive: {
+				bg: p.statuslinenc.bg,
+				fg: p.comment,
+			},
+			unfocusedActive: {
+				fg: p.comment,
+			},
+			unfocusedInactive: {
+				fg: p.comment.withAlpha(0.5),
+			},
+		},
+		titleBar: {
+			active: {
+				bg: p.statuslinenc.bg,
+				fg: p.normal.fg,
+			},
+			inactive: {
+				bg: p.statuslinenc.bg,
+				fg: p.comment,
+			},
+		},
+		tokens: {
+			comment: p.comment,
+		},
+	};
+}

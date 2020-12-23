@@ -7,9 +7,11 @@ export function create(palette: VscodePalette): VscodeTheme {
 	const t = Dark.create(p);
 
 	t.name = 'Iceberg Light';
-	t.colors['editor.wordHighlightBackground'] = p.blue.withAlpha(0.15);
-	t.colors['editor.wordHighlightStrongBackground'] = p.blue.withAlpha(0.3);
-	t.colors['sideBarSectionHeader.background'] = p.statuslinenc.bg;
+	t.colors['editor.wordHighlightBackground'] = p.colors.blue.withAlpha(0.15);
+	t.colors['editor.wordHighlightStrongBackground'] = p.colors.blue.withAlpha(
+		0.3,
+	);
+	t.colors['sideBarSectionHeader.background'] = p.titleBar.active.bg;
 
 	return t;
 }

@@ -1,5 +1,7 @@
 import {Color} from '../color';
+import {VimPalette} from '../vim-paeltte';
 import {VscodePalette} from '../vscode-palette';
+import * as Dark from './dark';
 
 const hues = {
 	base: 230,
@@ -22,7 +24,7 @@ const normal = {
 	bg: Color.hsl(hues.base, 0.1 + 0.01, 0.92 - 0.002),
 	fg: Color.hsl(hues.base, 0.2, 0.249),
 };
-const tint = {
+const tints = {
 	blue: {
 		bg: Color.mix(colors.blue, normal.bg, 0.15),
 		fg: Color.mix(colors.blue, normal.bg, 0.4),
@@ -69,9 +71,9 @@ const statuslinenc = {
 	fg: cursorlinenr.bg.darken(0.2),
 };
 
-export const Light: VscodePalette = {
-	...colors,
-	tint: tint,
+export const Palette: VimPalette = {
+	colors: colors,
+	tints: tints,
 
 	comment: comment,
 	visual: normal.bg.adjust({
@@ -90,15 +92,6 @@ export const Light: VscodePalette = {
 		saturation: 0.08,
 		lightness: -0.09 - 0.002,
 	}),
-
-	vscode: {
-		floating: {
-			bg: linenr.bg,
-			separator: comment.withAlpha(0.3),
-			shadow: Color.hsl(hues.base, 0.3, 0.3).withAlpha(0.3),
-		},
-		overlaySelection: Color.hsl(hues.base, 0.17, 0.73).withAlpha(0.4),
-	},
 
 	ansi: {
 		black: linenr.bg,
@@ -141,3 +134,11 @@ export const Light: VscodePalette = {
 		}),
 	},
 };
+
+export function toVscode(p: VimPalette): VscodePalette {
+	const o = Dark.toVscode(p);
+	o.floating.separator = p.comment.withAlpha(0.3);
+	o.floating.shadow = Color.hsl(hues.base, 0.3, 0.3).withAlpha(0.3);
+	o.overlaySelection = Color.hsl(hues.base, 0.17, 0.73).withAlpha(0.4);
+	return o;
+}

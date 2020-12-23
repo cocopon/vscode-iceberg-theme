@@ -1,47 +1,29 @@
 import {Color} from './color';
 
-interface BgFg {
+interface Bg {
 	bg: Color;
+}
+interface Fg {
 	fg: Color;
 }
+type BgFg = Bg & Fg;
 
 export interface VscodePalette {
-	red: Color;
-	orange: Color;
-	green: Color;
-	lblue: Color;
-	blue: Color;
-	purple: Color;
-
-	tint: {
+	colors: {
+		red: Color;
+		orange: Color;
+		green: Color;
+		lblue: Color;
+		blue: Color;
+		purple: Color;
+	};
+	tints: {
 		blue: BgFg;
 		green: BgFg;
 		lblue: BgFg;
 		purple: BgFg;
 		red: BgFg;
 	};
-
-	comment: Color;
-	visual: Color;
-
-	matchparen: {
-		bg: Color;
-	};
-	normal: BgFg;
-	cursorlinenr: BgFg;
-	linenr: BgFg;
-	statuslinenc: BgFg;
-	whitespace: Color;
-
-	vscode: {
-		floating: {
-			bg: Color;
-			separator: Color;
-			shadow: Color;
-		};
-		overlaySelection: Color;
-	};
-
 	ansi: {
 		black: Color;
 		blue: Color;
@@ -60,5 +42,55 @@ export interface VscodePalette {
 		brightRed: Color;
 		brightWhite: Color;
 		brightYellow: Color;
+	};
+
+	editor: BgFg & {
+		bracketMatch: Bg;
+		gutter: BgFg & {
+			active: {
+				fg: Color;
+			};
+		};
+		lineHighlight: Bg;
+		selection: Bg;
+		whitespace: Fg;
+	};
+	floating: Bg & {
+		list: {
+			selection: BgFg;
+		};
+		separator: Color;
+		shadow: Color;
+	};
+	fold: Bg;
+	input: BgFg;
+	list: {
+		activeSelection: BgFg;
+		focus: BgFg;
+		hover: Bg;
+		inactiveSelection: Bg;
+	};
+	menubar: {
+		selection: BgFg;
+	};
+	overlaySelection: Color;
+	statusBar: BgFg & {
+		item: {
+			hover: Bg;
+		};
+	};
+	tab: {
+		active: BgFg;
+		hover: Bg;
+		inactive: BgFg;
+		unfocusedActive: Fg;
+		unfocusedInactive: Fg;
+	};
+	titleBar: {
+		active: BgFg;
+		inactive: BgFg;
+	};
+	tokens: {
+		comment: Color;
 	};
 }
