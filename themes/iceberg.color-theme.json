@@ -385,7 +385,7 @@
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#c7ccd3"
+				"foreground": "#5078af"
 			}
 		},
 		{
