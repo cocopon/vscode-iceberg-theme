@@ -1,55 +1,11 @@
 import {Color} from '../color';
+import {Bg, BgFg, Fg, Palette} from './palette';
 
-interface Bg {
-	bg: Color;
-}
-interface Fg {
-	fg: Color;
-}
-type BgFg = Bg & Fg;
-
-export interface VscodePalette {
-	colors: {
-		red: Color;
-		orange: Color;
-		green: Color;
-		lblue: Color;
-		blue: Color;
-		purple: Color;
-	};
-	tints: {
-		blue: BgFg;
-		green: BgFg;
-		lblue: BgFg;
-		purple: BgFg;
-		red: BgFg;
-	};
-	ansi: {
-		black: Color;
-		blue: Color;
-		cyan: Color;
-		green: Color;
-		magenta: Color;
-		red: Color;
-		white: Color;
-		yellow: Color;
-
-		brightBlack: Color;
-		brightBlue: Color;
-		brightCyan: Color;
-		brightGreen: Color;
-		brightMagenta: Color;
-		brightRed: Color;
-		brightWhite: Color;
-		brightYellow: Color;
-	};
-
+export interface VscodePalette extends Palette {
 	editor: BgFg & {
 		bracketMatch: Bg;
 		gutter: BgFg & {
-			active: {
-				fg: Color;
-			};
+			active: Fg;
 		};
 		lineHighlight: Bg;
 		selection: Bg;
