@@ -1,5 +1,5 @@
 import {Color} from '../color';
-import {Palette} from '../palette';
+import {VscodePalette} from '../vscode-palette';
 
 const hues = {
 	base: 230,
@@ -69,7 +69,7 @@ const statuslinenc = {
 	fg: cursorlinenr.bg.darken(0.2),
 };
 
-export const Light: Palette = {
+export const Light: VscodePalette = {
 	...colors,
 	tint: tint,
 

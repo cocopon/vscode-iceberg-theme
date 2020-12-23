@@ -1,7 +1,7 @@
-import {Palette} from '../palette';
-import {Theme} from '../theme';
+import {VscodePalette} from '../vscode-palette';
+import {VscodeTheme} from '../vscode-theme';
 
-export function create(palette: Palette): Theme {
+export function create(palette: VscodePalette): VscodeTheme {
 	const p = palette;
 	return {
 		name: 'Iceberg',

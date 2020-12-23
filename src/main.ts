@@ -2,7 +2,7 @@ import * as Fs from 'fs';
 
 import * as Palettes from './palettes';
 import * as Themes from './themes';
-import * as Theme from './theme';
+import * as Theme from './vscode-theme';
 
 {
 	Fs.writeFileSync(

@@ -5,7 +5,7 @@ interface BgFg {
 	fg: Color;
 }
 
-export interface Palette {
+export interface VscodePalette {
 	red: Color;
 	orange: Color;
 	green: Color;

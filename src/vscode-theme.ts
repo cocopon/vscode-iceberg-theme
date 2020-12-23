@@ -10,7 +10,7 @@ interface TokenColor {
 	};
 }
 
-export interface Theme {
+export interface VscodeTheme {
 	name: string;
 	colors: {
 		'activityBar.background': ThemeValue;
@@ -236,7 +236,7 @@ export interface Theme {
 	tokenColors: TokenColor[];
 }
 
-export function stringify(theme: Theme): string {
+export function stringify(theme: VscodeTheme): string {
 	return JSON.stringify(
 		theme,
 		(_: string, value: unknown) =>

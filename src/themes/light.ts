@@ -1,8 +1,8 @@
-import {Palette} from '../palette';
+import {VscodePalette} from '../vscode-palette';
+import {VscodeTheme} from '../vscode-theme';
 import * as Dark from './dark';
-import {Theme} from '../theme';
 
-export function create(palette: Palette): Theme {
+export function create(palette: VscodePalette): VscodeTheme {
 	const p = palette;
 	const t = Dark.create(p);
 
