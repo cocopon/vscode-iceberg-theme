@@ -9,6 +9,7 @@ export function create(palette: Palette): Theme {
 	t.name = 'Iceberg Light';
 	t.colors['editor.wordHighlightBackground'] = p.blue.withAlpha(0.15);
 	t.colors['editor.wordHighlightStrongBackground'] = p.blue.withAlpha(0.3);
+	t.colors['sideBarSectionHeader.background'] = p.statuslinenc.bg;
 
 	return t;
 }

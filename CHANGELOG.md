@@ -1,6 +1,13 @@
 # Change Log
 
 
+# 2.0.0
+- Added light theme (big thanks to [gkeep](https://github.com/gkeep))
+- Generated themes from palettes
+- Added some missing colors: debug toolbar, git decorations, editor widgets, etc.
+- Added some minor improvements
+
+
 # 1.1.1
 - Improved contrast
 
@@ -13,7 +20,7 @@
 - Added colors for symbol icons
 - Added colors for light bulbs
 - Added colors for info / warning / error icons
-- Some minor improvements
+- Added some minor improvements
 
 
 # 1.0.0
@@ -26,14 +33,14 @@
 
 # 0.1.0
 - Added colors for QuickInput, PeekView, etc.
-- Some minor improvements
+- Added some minor improvements
 
 
 # 0.0.7
 - Updated title and status bar colors
 - Added styles for menu
 - Added styles for breadcrumb
-- Some minor improvements
+- Added some minor improvements
 
 
 ## 0.0.6
@@ -44,7 +51,7 @@
 - Updated gutter and overview ruler colors
 - Fine-tuned border colors
 - Set up drop background colors
-- Some minor improvements
+- Added some minor improvements
 
 
 ## 0.0.4
