@@ -1,6 +1,6 @@
+import {VimPalette} from '../types/vim-paeltte';
+import {VscodePalette} from '../types/vscode-palette';
 import {Color} from '../color';
-import {VimPalette} from '../vim-paeltte';
-import {VscodePalette} from '../vscode-palette';
 
 const hues = {
 	base: 230,

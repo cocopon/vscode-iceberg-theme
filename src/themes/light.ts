@@ -1,5 +1,5 @@
-import {VscodePalette} from '../vscode-palette';
-import {VscodeTheme} from '../vscode-theme';
+import {VscodePalette} from '../types/vscode-palette';
+import {VscodeTheme} from '../types/vscode-theme';
 import * as Dark from './dark';
 
 export function create(palette: VscodePalette): VscodeTheme {
