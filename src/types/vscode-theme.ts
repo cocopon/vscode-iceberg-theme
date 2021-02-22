@@ -28,7 +28,11 @@ export interface VscodeTheme {
 		'button.background': ThemeValue;
 		'button.foreground': ThemeValue;
 		'button.hoverBackground': ThemeValue;
-		'debugToolBar.background': ThemeValue;
+		'debugConsole.errorForeground': ThemeValue;
+		'debugConsole.infoForeground': ThemeValue;
+		'debugConsole.sourceForeground': ThemeValue;
+		'debugConsole.warningForeground': ThemeValue;
+		'debugConsoleInputIcon.foreground': ThemeValue;
 		'debugIcon.breakpointCurrentStackframeForeground': ThemeValue;
 		'debugIcon.breakpointDisabledForeground': ThemeValue;
 		'debugIcon.breakpointForeground': ThemeValue;
@@ -44,6 +48,13 @@ export interface VscodeTheme {
 		'debugIcon.stepOutForeground': ThemeValue;
 		'debugIcon.stepOverForeground': ThemeValue;
 		'debugIcon.stopForeground': ThemeValue;
+		'debugTokenExpression.boolean': ThemeValue;
+		'debugTokenExpression.error': ThemeValue;
+		'debugTokenExpression.name': ThemeValue;
+		'debugTokenExpression.number': ThemeValue;
+		'debugTokenExpression.string': ThemeValue;
+		'debugTokenExpression.value': ThemeValue;
+		'debugToolBar.background': ThemeValue;
 		descriptionForeground: ThemeValue;
 		'diffEditor.insertedTextBackground': ThemeValue;
 		'diffEditor.removedTextBackground': ThemeValue;
