@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 2.0.1
+- Added missing colors for debugging
+
+
 # 2.0.0
 - Added light theme (big thanks to [gkeep](https://github.com/gkeep))
 - Generated themes from palettes
