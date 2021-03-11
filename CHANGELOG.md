@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 2.0.2
+- Applied the latest change of list color
+
+
 # 2.0.1
 - Added missing colors for debugging
 
