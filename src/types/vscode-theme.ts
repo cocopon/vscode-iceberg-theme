@@ -134,7 +134,7 @@ export interface VscodeTheme {
 		'list.errorForeground': ThemeValue;
 		'list.highlightForeground': ThemeValue;
 		'list.inactiveSelectionBackground': ThemeValue;
-		'list.focusBackground': ThemeValue;
+		'quickInput.list.focusBackground': ThemeValue;
 		'list.focusForeground': ThemeValue;
 		'list.hoverBackground': ThemeValue;
 		'list.warningForeground': ThemeValue;

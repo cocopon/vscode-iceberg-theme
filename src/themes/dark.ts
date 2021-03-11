@@ -129,7 +129,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'list.errorForeground': p.colors.red,
 			'list.highlightForeground': p.colors.green,
 			'list.inactiveSelectionBackground': p.list.inactiveSelection.bg,
-			'list.focusBackground': p.list.focus.bg,
+			'quickInput.list.focusBackground': p.list.focus.bg,
 			'list.focusForeground': p.list.focus.fg,
 			'list.hoverBackground': p.list.hover.bg,
 			'list.warningForeground': p.colors.orange,
