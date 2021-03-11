@@ -134,7 +134,6 @@ export interface VscodeTheme {
 		'list.errorForeground': ThemeValue;
 		'list.highlightForeground': ThemeValue;
 		'list.inactiveSelectionBackground': ThemeValue;
-		'list.focusBackground': ThemeValue;
 		'list.focusForeground': ThemeValue;
 		'list.hoverBackground': ThemeValue;
 		'list.warningForeground': ThemeValue;
@@ -180,6 +179,7 @@ export interface VscodeTheme {
 		'progressBar.background': ThemeValue;
 		'quickInput.background': ThemeValue;
 		'quickInput.foreground': ThemeValue;
+		'quickInput.list.focusBackground': ThemeValue;
 		'scrollbar.shadow': ThemeValue;
 		'scrollbarSlider.background': ThemeValue;
 		'scrollbarSlider.hoverBackground': ThemeValue;
