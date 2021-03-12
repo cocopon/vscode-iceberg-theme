@@ -118,6 +118,7 @@ export interface VscodeTheme {
 		'gitDecoration.deletedResourceForeground': ThemeValue;
 		'gitDecoration.ignoredResourceForeground': ThemeValue;
 		'gitDecoration.modifiedResourceForeground': ThemeValue;
+		'gitDecoration.renamedResourceForeground': ThemeValue;
 		'gitDecoration.stageDeletedResourceForeground': ThemeValue;
 		'gitDecoration.stageModifiedResourceForeground': ThemeValue;
 		'gitDecoration.submoduleResourceForeground': ThemeValue;

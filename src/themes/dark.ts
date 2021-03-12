@@ -113,6 +113,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'gitDecoration.deletedResourceForeground': p.colors.red,
 			'gitDecoration.ignoredResourceForeground': p.tokens.comment,
 			'gitDecoration.modifiedResourceForeground': p.colors.lblue,
+			'gitDecoration.renamedResourceForeground': p.colors.purple,
 			'gitDecoration.stageDeletedResourceForeground': p.colors.red,
 			'gitDecoration.stageModifiedResourceForeground': p.colors.lblue,
 			'gitDecoration.submoduleResourceForeground': p.tokens.comment,

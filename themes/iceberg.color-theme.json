@@ -106,6 +106,7 @@
 		"gitDecoration.deletedResourceForeground": "#e27878",
 		"gitDecoration.ignoredResourceForeground": "#6b7089",
 		"gitDecoration.modifiedResourceForeground": "#89b8c2",
+		"gitDecoration.renamedResourceForeground": "#a093c7",
 		"gitDecoration.stageDeletedResourceForeground": "#e27878",
 		"gitDecoration.stageModifiedResourceForeground": "#89b8c2",
 		"gitDecoration.submoduleResourceForeground": "#6b7089",
