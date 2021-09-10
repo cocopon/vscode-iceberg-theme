@@ -1,6 +1,11 @@
 # Change Log
 
 
+# 2.0.3
+- Added support for bracket highlight 
+- Added support for status bar error item
+
+
 # 2.0.2
 - Applied the latest change of list color
 
