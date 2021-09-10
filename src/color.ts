@@ -51,6 +51,10 @@ export class Color {
 		});
 	}
 
+	static transparent(): Color {
+		return new Color('#00000000');
+	}
+
 	static hsl(h: number, s: number, l: number): Color {
 		const hex = Chroma(h, s, l, 'hsl').hex();
 		return new Color(hex);

@@ -71,6 +71,13 @@ export interface VscodeTheme {
 		'editor.selectionBackground': ThemeValue;
 		'editor.wordHighlightBackground': ThemeValue;
 		'editor.wordHighlightStrongBackground': ThemeValue;
+		'editorBracketHighlight.foreground1': ThemeValue;
+		'editorBracketHighlight.foreground2': ThemeValue;
+		'editorBracketHighlight.foreground3': ThemeValue;
+		'editorBracketHighlight.foreground4': ThemeValue;
+		'editorBracketHighlight.foreground5': ThemeValue;
+		'editorBracketHighlight.foreground6': ThemeValue;
+		'editorBracketHighlight.unexpectedBracket.foreground': ThemeValue;
 		'editorBracketMatch.background': ThemeValue;
 		'editorBracketMatch.border': ThemeValue;
 		'editorCursor.foreground': ThemeValue;

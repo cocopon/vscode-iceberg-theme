@@ -1,3 +1,4 @@
+import {Color} from '../color';
 import {VscodePalette} from '../types/vscode-palette';
 import {VscodeTheme} from '../types/vscode-theme';
 
@@ -64,6 +65,13 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editor.selectionBackground': p.editor.selection.bg,
 			'editor.wordHighlightBackground': p.colors.blue.withAlpha(0.25),
 			'editor.wordHighlightStrongBackground': p.colors.blue.withAlpha(0.5),
+			'editorBracketHighlight.foreground1': p.colors.blue,
+			'editorBracketHighlight.foreground2': p.colors.lblue,
+			'editorBracketHighlight.foreground3': p.colors.green,
+			'editorBracketHighlight.foreground4': p.colors.orange,
+			'editorBracketHighlight.foreground5': p.colors.purple,
+			'editorBracketHighlight.foreground6': Color.transparent(),
+			'editorBracketHighlight.unexpectedBracket.foreground': p.colors.red,
 			'editorBracketMatch.background': p.editor.bracketMatch.bg,
 			'editorBracketMatch.border': p.editor.bracketMatch.bg,
 			'editorCursor.foreground': p.editor.fg,
