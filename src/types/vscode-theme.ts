@@ -185,6 +185,8 @@ export interface VscodeTheme {
 		'scrollbarSlider.background': ThemeValue;
 		'scrollbarSlider.hoverBackground': ThemeValue;
 		'selection.background': ThemeValue;
+		'statusBarItem.errorBackground': ThemeValue;
+		'statusBarItem.errorForeground': ThemeValue;
 		'settings.headerForeground': ThemeValue;
 		'settings.modifiedItemIndicator': ThemeValue;
 		'sideBar.background': ThemeValue;

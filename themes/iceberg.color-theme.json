@@ -187,6 +187,8 @@
 		"statusBar.foreground": "#6b7089",
 		"statusBar.noFolderBackground": "#0f1117",
 		"statusBar.noFolderForeground": "#6b7089",
+		"statusBarItem.errorBackground": "#e27878",
+		"statusBarItem.errorForeground": "#161821",
 		"statusBarItem.hoverBackground": "#6b708920",
 		"symbolIcon.classForeground": "#e2a478",
 		"symbolIcon.constructorForeground": "#e2a478",

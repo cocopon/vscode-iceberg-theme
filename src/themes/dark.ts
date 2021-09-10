@@ -200,6 +200,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'statusBar.foreground': p.statusBar.fg,
 			'statusBar.noFolderBackground': p.statusBar.bg,
 			'statusBar.noFolderForeground': p.statusBar.fg,
+			'statusBarItem.errorBackground': p.colors.red,
+			'statusBarItem.errorForeground': p.editor.bg,
 			'statusBarItem.hoverBackground': p.statusBar.item.hover.bg,
 			'symbolIcon.classForeground': p.colors.orange,
 			'symbolIcon.constructorForeground': p.colors.orange,
