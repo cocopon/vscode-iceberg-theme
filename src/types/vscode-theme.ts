@@ -221,10 +221,12 @@ export interface VscodeTheme {
 		'symbolIcon.variableForeground': ThemeValue;
 		'tab.activeBackground': ThemeValue;
 		'tab.activeForeground': ThemeValue;
+		'tab.activeModifiedBorder': ThemeValue;
 		'tab.border': ThemeValue;
 		'tab.hoverBackground': ThemeValue;
 		'tab.inactiveBackground': ThemeValue;
 		'tab.inactiveForeground': ThemeValue;
+		'tab.inactiveModifiedBorder': ThemeValue;
 		'tab.unfocusedActiveForeground': ThemeValue;
 		'tab.unfocusedInactiveForeground': ThemeValue;
 		'terminal.ansiBlack': ThemeValue;
