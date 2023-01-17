@@ -135,6 +135,7 @@ export const Palette: VimPalette = {
 };
 
 export function toVscode(p: VimPalette): VscodePalette {
+	const windowBg = p.statuslinenc.bg.darken(0.005);
 	return {
 		colors: p.colors,
 		tints: p.tints,
@@ -205,7 +206,7 @@ export function toVscode(p: VimPalette): VscodePalette {
 		},
 		overlaySelection: Color.hsl(hues.base, 0.27, 0.4).withAlpha(0.4),
 		statusBar: {
-			bg: p.statuslinenc.bg,
+			bg: windowBg,
 			fg: p.comment,
 			item: {
 				hover: {
@@ -222,7 +223,7 @@ export function toVscode(p: VimPalette): VscodePalette {
 				bg: p.linenr.bg,
 			},
 			inactive: {
-				bg: p.statuslinenc.bg,
+				bg: windowBg,
 				fg: p.comment,
 			},
 			unfocusedActive: {
@@ -234,11 +235,11 @@ export function toVscode(p: VimPalette): VscodePalette {
 		},
 		titleBar: {
 			active: {
-				bg: p.statuslinenc.bg,
+				bg: windowBg,
 				fg: p.normal.fg,
 			},
 			inactive: {
-				bg: p.statuslinenc.bg,
+				bg: windowBg,
 				fg: p.comment,
 			},
 		},
