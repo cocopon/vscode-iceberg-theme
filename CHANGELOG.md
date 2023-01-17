@@ -1,6 +1,11 @@
 # Change Log
 
 
+# 2.0.4
+- Added support for terminal command decorations
+- Fine-tuned window background color
+
+
 # 2.0.3
 - Added support for bracket highlight 
 - Added support for status bar error item
