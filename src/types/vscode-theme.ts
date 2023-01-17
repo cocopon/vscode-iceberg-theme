@@ -187,7 +187,7 @@ export interface VscodeTheme {
 		'progressBar.background': ThemeValue;
 		'quickInput.background': ThemeValue;
 		'quickInput.foreground': ThemeValue;
-		'quickInput.list.focusBackground': ThemeValue;
+		'quickInputList.focusBackground': ThemeValue;
 		'scrollbar.shadow': ThemeValue;
 		'scrollbarSlider.background': ThemeValue;
 		'scrollbarSlider.hoverBackground': ThemeValue;

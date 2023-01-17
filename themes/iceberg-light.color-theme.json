@@ -175,7 +175,7 @@
 		"progressBar.background": "#2d539e",
 		"quickInput.background": "#dcdfe7",
 		"quickInput.foreground": "#8389a3",
-		"quickInput.list.focusBackground": "#cad0de",
+		"quickInputList.focusBackground": "#cad0de",
 		"scrollbar.shadow": "#363d634d",
 		"scrollbarSlider.background": "#cbcfda80",
 		"scrollbarSlider.hoverBackground": "#cbcfdaa0",

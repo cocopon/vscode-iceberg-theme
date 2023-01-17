@@ -187,7 +187,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'progressBar.background': p.colors.blue,
 			'quickInput.background': p.floating.bg,
 			'quickInput.foreground': p.tokens.comment,
-			'quickInput.list.focusBackground': p.list.focus.bg,
+			'quickInputList.focusBackground': p.list.focus.bg,
 			'scrollbar.shadow': p.floating.shadow,
 			'scrollbarSlider.background': p.editor.whitespace.fg.withAlpha(0.5),
 			'scrollbarSlider.hoverBackground': p.editor.whitespace.fg.withAlpha(
