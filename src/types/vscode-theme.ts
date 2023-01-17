@@ -247,6 +247,9 @@ export interface VscodeTheme {
 		'terminal.ansiYellow': ThemeValue;
 		'terminal.foreground': ThemeValue;
 		'terminal.selectionBackground': ThemeValue;
+		"terminalCommandDecoration.defaultBackground": ThemeValue;
+		"terminalCommandDecoration.errorBackground": ThemeValue;
+		"terminalCommandDecoration.successBackground": ThemeValue;
 		'textLink.activeForeground': ThemeValue;
 		'textLink.foreground': ThemeValue;
 		'titleBar.activeBackground': ThemeValue;
