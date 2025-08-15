@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 2.0.5
+- Enabled semantic highlighting
+
+
 # 2.0.4
 - Added support for terminal command decorations
 - Fine-tuned window background color
