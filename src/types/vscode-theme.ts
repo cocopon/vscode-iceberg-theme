@@ -93,8 +93,8 @@ export interface VscodeTheme {
 		'editorHoverWidget.border': ThemeValue;
 		'editorHoverWidget.foreground': ThemeValue;
 		'editorHoverWidget.statusBarBackground': ThemeValue;
-		'editorIndentGuide.activeBackground': ThemeValue;
-		'editorIndentGuide.background': ThemeValue;
+		'editorIndentGuide.activeBackground1': ThemeValue;
+		'editorIndentGuide.background1': ThemeValue;
 		'editorLightBulb.foreground': ThemeValue;
 		'editorLightBulbAutoFix.foreground': ThemeValue;
 		'editorLineNumber.activeForeground': ThemeValue;
