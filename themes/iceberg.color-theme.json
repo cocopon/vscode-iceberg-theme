@@ -536,5 +536,9 @@
 				"foreground": "#89b8c2"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"variable": "#c6c8d1"
+	}
 }

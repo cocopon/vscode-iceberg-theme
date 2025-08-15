@@ -545,5 +545,9 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 		],
+		semanticHighlighting: true,
+		semanticTokenColors: {
+			variable: p.editor.fg,
+		},
 	};
 }

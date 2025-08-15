@@ -259,6 +259,10 @@ export interface VscodeTheme {
 		'tree.indentGuidesStroke': ThemeValue;
 		'widget.shadow': ThemeValue;
 	};
+	semanticHighlighting: boolean;
+	semanticTokenColors: {
+		[key: string]: ThemeValue;
+	};
 	tokenColors: TokenColor[];
 }
 
