@@ -102,9 +102,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editorOverviewRuler.infoForeground': p.ansi.brightCyan.withAlpha(0.5),
 			'editorOverviewRuler.modifiedForeground': p.colors.green.withAlpha(0.5),
 			'editorOverviewRuler.warningForeground': p.colors.orange.withAlpha(0.5),
-			'editorOverviewRuler.wordHighlightForeground': p.colors.blue.withAlpha(
-				0.5,
-			),
+			'editorOverviewRuler.wordHighlightForeground':
+				p.colors.blue.withAlpha(0.5),
 			'editorRuler.foreground': p.editor.whitespace.fg,
 			'editorSuggestWidget.selectedBackground': p.editor.fg.withAlpha(0.125),
 			'editorWhitespace.foreground': p.editor.whitespace.fg,
@@ -165,16 +164,14 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'panelTitle.inactiveForeground': p.tokens.comment,
 			'peekView.border': p.editor.whitespace.fg,
 			'peekViewEditor.background': p.editor.bg,
-			'peekViewEditor.matchHighlightBackground': p.colors.orange.withAlpha(
-				0.25,
-			),
+			'peekViewEditor.matchHighlightBackground':
+				p.colors.orange.withAlpha(0.25),
 			'peekViewEditorGutter.background': p.editor.gutter.bg,
 			'peekViewResult.background': p.floating.bg,
 			'peekViewResult.fileForeground': p.editor.fg,
 			'peekViewResult.lineForeground': p.tokens.comment,
-			'peekViewResult.matchHighlightBackground': p.colors.orange.withAlpha(
-				0.25,
-			),
+			'peekViewResult.matchHighlightBackground':
+				p.colors.orange.withAlpha(0.25),
 			'peekViewResult.selectionBackground': p.editor.selection.bg,
 			'peekViewTitle.background': p.floating.bg,
 			'peekViewTitleDescription.foreground': p.tokens.comment,
@@ -190,9 +187,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'quickInputList.focusBackground': p.list.focus.bg,
 			'scrollbar.shadow': p.floating.shadow,
 			'scrollbarSlider.background': p.editor.whitespace.fg.withAlpha(0.5),
-			'scrollbarSlider.hoverBackground': p.editor.whitespace.fg.withAlpha(
-				0.628,
-			),
+			'scrollbarSlider.hoverBackground':
+				p.editor.whitespace.fg.withAlpha(0.628),
 			'selection.background': p.overlaySelection,
 			'settings.headerForeground': p.editor.fg,
 			'settings.modifiedItemIndicator': p.colors.lblue.withAlpha(0.298),
