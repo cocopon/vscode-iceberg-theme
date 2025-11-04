@@ -1,6 +1,10 @@
 # Change Log
 
 
+# 2.0.6
+- Added colors for editor action list
+
+
 # 2.0.5
 - Enabled semantic highlighting
 
